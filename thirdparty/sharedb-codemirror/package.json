@@ -1,0 +1,35 @@
+{
+  "name": "sharedb-codemirror",
+  "version": "0.2.2",
+  "description": "CodeMirror bindings for ShareDB",
+  "main": "sharedb-codemirror.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "test-cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha",
+    "start": "cd examples && \"../node_modules/.bin/webpack\" && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ejones/sharedb-codemirror.git"
+  },
+  "keywords": [
+    "codemirror",
+    "sharedb"
+  ],
+  "author": "Evan Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejones/sharedb-codemirror/issues"
+  },
+  "devDependencies": {
+    "codemirror": "^5.13.4",
+    "express": "^4.13.4",
+    "istanbul": "^0.4.3",
+    "jsdom": "^3.1.2",
+    "mocha": "^2.4.5",
+    "ot-text": "^1.0.1",
+    "sharedb": "^0.11.35",
+    "webpack": "^1.12.14",
+    "ws": "^1.0.1"
+  }
+}
